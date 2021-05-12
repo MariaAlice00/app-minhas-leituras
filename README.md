@@ -1,11 +1,25 @@
-<h1>Projeto Minhas Leituras</h1>
+<h1><strong>APP MINHAS LEITURAS</strong></h1>
 
-<p>Telas</p>
+<p>Programa para organizar leituras.</p>
+<p><strong>Funcionalidades</strong></p>
 <ul>
- <li>Início -> Onde ficarão os livros cadastrados. Terá também um campo de pesquisa de livros (por autor, título ou gênero).</li>
- <li>Perfil -> Mais informação sobre o livro. Terá botões para editar e remover o livro.</li>
- <li>Editar -> Mudar alguma informação sobre o livro. Imagem, título, autor, gênero, nota e o que eu achei.</li>
- <li>Cadastrar -> Adicionar novo livro.</li>
+ <li>Cada livro terá os atributos</li>
+ <ul>
+  <li>Título</li>
+  <li>Autor</li>
+  <li>Gênero</li>
+  <li>Nota</li>
+  <li>Opinião (o que eu achei)</li>
+ </ul>
+ <li>Cadastrar livro</li>
+ <li>Editar livro</li>
+ <li>Remover livro</li>
+ <li>Buscar livro</li>
+ <ul>
+  <li>Por título</li>
+  <li>Por autor</li>
+  <li>Por gênero</li>
+ </ul>
 </ul>
 
 <p>Protótipos das telas</p>
