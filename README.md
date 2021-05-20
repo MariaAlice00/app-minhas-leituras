@@ -25,12 +25,7 @@
 
 <p><strong>Ferramentas</strong></p>
 <ul>
- <li>Python + FastAPI</li>
+ <li>Python + Django</li>
  <li>HTML e CSS</li>
  <li>Banco de Dados: SQLite</li>
  </ul>
- 
-<p>Protótipos das telas</p>
-<ul>
- <li><a href="https://www.figma.com/file/A80J82Aql36cNVOl4Z6dJ1/Livros?node-id=0%3A1">Figma</a></li>
-</ul>
