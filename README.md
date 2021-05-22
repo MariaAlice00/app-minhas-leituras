@@ -1,6 +1,6 @@
 <h1><strong>MINHAS LEITURAS</strong></h1>
 
-<p>Programa para organizar leituras.</p>
+<p>Programa para organizar leituras</p>
 
 <p>Projeto feito durante a disciplina de Projeto Integrador do curso de Desenvolvimento de Sistemas - 3° período</p>
 
