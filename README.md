@@ -1,4 +1,4 @@
-<h1><strong>APP MINHAS LEITURAS</strong></h1>
+<h1><strong>MINHAS LEITURAS</strong></h1>
 
 <p>Programa para organizar leituras.</p>
 
