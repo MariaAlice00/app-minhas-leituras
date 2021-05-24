@@ -1,0 +1,31 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+    <h2>Novo Livro</h2>
+    <form method="POST" class="post-form" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <label>Imagem</label>
+        <input name="image" type="file" class="form-control-file">
+
+        <label>Título</label>
+        <input required name="titulo" type="text" class="form-control">
+
+        <label>Autor</label>
+        <input required name="autor" type="text" class="form-control">
+
+        <label>Gênero</label>
+        <input required name="genero" type="text" class="form-control">
+
+        <label>Série/Único</label>
+        <input required name="serieunico" type="text" class="form-control">
+
+        <label>Nota</label>
+        <input required name="nota" type="number" class="form-control">
+
+        <label>Opinião</label>
+        <input required name="opiniao" type="text" class="form-control">
+
+        <button type="submit" class="btn btn-primary m-3">Salvar</button>
+    </form>
+{% endblock %}
