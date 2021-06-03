@@ -7,7 +7,7 @@ class Livro(models.Model):
     autor = models.CharField(max_length=50)
     genero = models.CharField(max_length=50)
     serieunico = models.CharField(max_length=50)
-    nota = models.FloatField()
+    nota = models.CharField(max_length=2)
     opiniao = models.CharField(max_length=300)
 
     def __str__(self):

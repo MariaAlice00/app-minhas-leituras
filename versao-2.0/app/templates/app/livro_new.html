@@ -1,8 +1,8 @@
 {% extends 'app/base.html' %}
 
 {% block content %}
-    <h2>Novo Livro</h2>
     <form method="POST" class="post-form" enctype="multipart/form-data">
+        <h2>Novo Livro</h2>
         {% csrf_token %}
 
         <label>Imagem</label>
@@ -26,6 +26,6 @@
         <label>Opinião</label>
         <input required name="opiniao" type="text" class="form-control">
 
-        <button type="submit" class="btn btn-primary m-3">Salvar</button>
+        <button type="submit">Salvar</button>
     </form>
 {% endblock %}

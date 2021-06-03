@@ -1,3 +1,4 @@
+import os
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Livro
 
@@ -29,6 +30,28 @@ def livro_new(request):
             imagem=image,
         )
 
-        return redirect('livro_list')
+        return redirect('livro_detail', pk=livro.pk)
 
     return render(request, 'app/livro_new.html', {'livros': livros})
+
+
+def livro_edit(request, pk):
+    livro = Livro.objects.get(id=pk)
+
+    if request.method == 'POST':
+        if len(request.FILES) != 0:
+            if len(livro.imagem) > 0:
+                os.remove(livro.imagem.path)
+            livro.imagem = request.FILES['imagem']
+        livro.titulo = request.POST.get('titulo')
+        livro.autor = request.POST.get('autor')
+        livro.genero = request.POST.get('genero')
+        livro.serieunico = request.POST.get('serieunico')
+        livro.nota = request.POST.get('nota')
+        livro.opiniao = request.POST.get('opiniao')
+
+        livro.save()
+
+        return redirect('livro_detail', pk=livro.pk)
+
+    return render(request, 'app/livro_edit.html', {'livro': livro})
