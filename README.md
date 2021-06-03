@@ -18,12 +18,6 @@
  <li>Editar livro</li>
  <li>Remover livro</li>
  <li>Buscar livro</li>
- <ul>
-  <li>Por título</li>
-  <li>Por autor</li>
-  <li>Por gênero</li>
- </ul>
-</ul>
 
 <p><strong>Ferramentas</strong></p>
 <ul>
