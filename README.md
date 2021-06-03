@@ -18,7 +18,7 @@
  <li>Editar livro</li>
  <li>Remover livro</li>
  <li>Buscar livro</li>
-
+</ul>
 <p><strong>Ferramentas</strong></p>
 <ul>
  <li>Python + Django</li>
