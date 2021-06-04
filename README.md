@@ -11,6 +11,7 @@
   <li>Título</li>
   <li>Autor</li>
   <li>Gênero</li>
+  <li>Série/Único</li>
   <li>Nota</li>
   <li>Opinião (o que eu achei)</li>
   <li>Imagem</li>
