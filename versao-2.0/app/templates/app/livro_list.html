@@ -1,9 +1,0 @@
-{% extends 'app/base.html' %}
-
-{% block content %}
-{% for livro in livros %}
-        <div class="livro">
-            <a href="{% url 'livro_detail' pk=livro.pk %}"><img src="{{ livro.imagem.url }}"></a>
-        </div>
-    {% endfor %}
-{% endblock %}

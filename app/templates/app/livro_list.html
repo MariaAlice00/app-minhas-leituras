@@ -1,0 +1,14 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+<div class="buscar">
+    <form method="get">
+        <input type="text" id="search" name="search" class="form-control" placeholder="Buscar...">
+    </form>
+</div>
+{% for livro in livros %}
+        <div class="livro">
+            <a href="{% url 'livro_detail' pk=livro.pk %}"><img src="{{ livro.imagem.url }}"></a>
+        </div>
+    {% endfor %}
+{% endblock %}

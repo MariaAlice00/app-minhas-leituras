@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+     font-weight: bold;
+}
+
+label, input[type=text], input[type=hidden], input[type=number] {
+    font-size: 18px;
+    color: black;
+}
+
+.page-header {
+    background-color: #9C08B2;
+    padding: 7px 18px 19px 30px;
+    margin: 0;
+}
+
+.page-header h1 a {
+    margin: 2px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.buscar {
+    margin-top: 20px;
+}
+
+.form-control {
+    height: 46px;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.livro {
+    margin-bottom: 70px;
+    display: inline;
+}
+
+.livro h2 a, .post h2 a:visited {
+    color: #000000;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+}
+
+.conteudo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo h2, .corpo, .post-form h2 {
+    text-align: center;
+}
+
+.corpo {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.post-form button {
+    margin-right: 28px;
+    margin-top: 18px;
+    background-color: #E957FF;
+    border: none;
+    color: white;
+    padding: -1px;
+    width: 90px;
+    height: 45px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.botoes a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
