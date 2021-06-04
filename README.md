@@ -13,15 +13,29 @@
   <li>Gênero</li>
   <li>Nota</li>
   <li>Opinião (o que eu achei)</li>
+  <li>Imagem</li>
  </ul>
- <li>Cadastrar livro</li>
- <li>Editar livro</li>
- <li>Remover livro</li>
- <li>Buscar livro</li>
+ <li>Detalhes</li>
+ <li>Cadastrar</li>
+ <li>Editar</li>
+ <li>Remover</li>
+ <li>Buscar</li>
 </ul>
 <p><strong>Ferramentas</strong></p>
 <ul>
- <li>Python + Django</li>
- <li>HTML e CSS</li>
- <li>Banco de Dados: SQLite</li>
+ <li>Back-End</li>
+ <ul>
+  <li>Python + Django</li>
+ </ul>
+ <li>Front-End</li>
+ <ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Bootstrap</li>
+ </ul>
+ <li>Banco de Dados</li>
+ <ul>
+  <li>SQLite</li>
+ </ul>
  </ul>
